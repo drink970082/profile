@@ -1,0 +1,129 @@
+html {
+    background-color: #F4FAFF;
+}
+
+#intro .jumbotron {
+    height: 70vh;
+    margin-bottom: 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Noto Serif TC', serif;
+}
+
+p,
+a,
+input,
+label,
+textarea,
+span,
+ul,
+li {
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+#intro h1 {
+    font-size: 52px;
+    font-weight: 400px;
+    line-height: 1.5;
+}
+
+#intro h5 {
+    font-size: 20px;
+}
+
+#intro .paragraph {
+    width: 400px;
+    font-size: 22px;
+    padding-bottom: 20px;
+}
+
+#intro .container {
+    position: absolute;
+    top: 50%;
+    transform: translate(0%, -50%);
+}
+
+#intro img {
+    position: absolute;
+    width: 300px;
+    left: 20%;
+    border-radius: 100%;
+}
+
+.btn1 {
+    background: #DEE7E7;
+    color: white;
+    padding: 9px 30px;
+    border-radius: 30px;
+}
+
+.btn2 {
+    background: #B7ADCF;
+    color: white;
+    padding: 9px 30px;
+    border-radius: 30px;
+}
+
+.btn3 {
+    background: #4F646F;
+    color: white;
+    padding: 9px 30px;
+    border-radius: 30px;
+}
+
+.navbar1 {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    margin-bottom: 0px 5px;
+}
+
+header li {
+    margin: 0 10px;
+}
+
+header nav img {
+    width: 80px;
+}
+
+footer {
+    border-top: solid 1px #c9c9c9;
+    padding: 80px 0px;
+    position: absolute;
+    width: 100%;
+    top: 130%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+footer h4 {
+    margin-bottom: 26px;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+footer a {
+    color: #f05f5c;
+    text-decoration: none;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0px;
+    float: left;
+    margin-right: 50px;
+}
+
+footer li {
+    margin-bottom: 10px;
+}
+
+footer li a {
+    color: #707070;
+    text-decoration: none;
+}
