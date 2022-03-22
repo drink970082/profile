@@ -36,7 +36,8 @@ li {
 
 #intro .container {
     position: absolute;
-    top: 200%;
+    top: 160%;
+    left: auto;
     transform: translate(0%, -50%);
     word-break: break-all;
 }
@@ -89,12 +90,52 @@ header nav img {
     width: 80px;
 }
 
+.toTop-arrow {
+    width: 3rem;
+    height: 3rem;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    border-radius: 33%;
+    opacity: 0.6;
+    background: #56BBF1;
+    cursor: pointer;
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+    display: none;
+}
+
+.toTop-arrow::before,
+.toTop-arrow::after {
+    width: 25px;
+    height: 6px;
+    border-radius: 3px;
+    background: #5EE6EB;
+    position: absolute;
+    content: "";
+}
+
+.toTop-arrow::before {
+    transform: rotate(-45deg) translate(0, -50%);
+    left: 0.42rem;
+}
+
+.toTop-arrow::after {
+    transform: rotate(45deg) translate(0, -50%);
+    right: 0.42rem;
+}
+
+.toTop-arrow:focus {
+    outline: none;
+}
+
 footer {
     border-top: solid 1px #c9c9c9;
     padding: 80px 0px;
     position: absolute;
     width: 100%;
-    top: 415%;
+    top: 325%;
     left: 50%;
     transform: translate(-50%, -50%);
 }

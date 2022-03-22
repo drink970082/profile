@@ -52,8 +52,9 @@ li {
 #intro img {
     position: absolute;
     width: 300px;
-    left: 20%;
+    left: 43%;
     border-radius: 100%;
+    float: right
 }
 
 .btn1 {

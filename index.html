@@ -7,6 +7,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/526285849a.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style-home.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/func.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&family=Noto+Serif+TC:wght@300&display=swap" rel="stylesheet">
@@ -26,7 +30,7 @@
         <div class="navbar1">
             <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="index.html"><img src="pictures/logo.png"></a>
+                    <a class="navbar-brand" href="index.html"><img src="pictures/turtlepic/turtle1.png"></a>
                     <!---<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                         </button>--->
@@ -42,7 +46,7 @@
                                 <a class="nav-link" href="project.html">專案和作品集</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="contact.html">聯絡資訊</a>
+                                <a class="nav-link" href="others.html">其他紀錄</a>
                             </li>
                         </ul>
                     </div>
@@ -53,16 +57,18 @@
 
     <section id='intro'>
 
-        <div class="container-fluid">
+        <div class="container">
             <div class="row">
-                <div class="col-6"><img src="pictures/homeimage.JPG"></div>
+                <div class="col-6" data-aos="fade-right"><img src="pictures/homeimage.JPG"></div>
                 <div class="col-6 text-start">
-                    <h1><b>吳振豪 Howard</b></h1>
-                    <h5><small>about me:</small></h5>
-                    <div class="paragraph">我是吳振豪，目前就讀於國立陽明交通大學資訊管理與財務金融學系，現為資訊管理組大二生。<br> </div>
-                    <a class='btn1' href="resume.html">簡歷</a>
-                    <a class='btn2' href="project.html">專案和作品集</a>
-                    <a class='btn3' href="contact.html">聯絡資訊</a>
+                    <h1 data-aos="fade-left"><b>吳振豪 Howard</b></h1>
+                    <h5 data-aos="fade-left" data-aos-delay="100"><small>about me:</small></h5>
+                    <div class="paragraph" data-aos="fade-left" data-aos-delay="100">我是吳振豪，目前就讀於國立陽明交通大學資訊管理與財務金融學系，現為資訊管理組大二生。<br> </div>
+                    <div data-aos="zoom-out" data-aos-delay="1100">
+                        <a class='btn1' href="resume.html">簡歷</a>
+                        <a class='btn2' href="project.html">專案和作品集</a>
+                        <a class='btn3' href="others.html">其他紀錄</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -99,6 +105,12 @@
             </div>
         </div>
     </footer>
+    <script>
+        AOS.init({
+            offset: -1000,
+            duration: 1000,
+        });
+    </script>
 </body>
 
 </html>
